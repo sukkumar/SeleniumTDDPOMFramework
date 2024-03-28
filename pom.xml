@@ -67,7 +67,7 @@
 		<configuration>
 		 
 		<suiteXmlFiles>
-		<suiteXmlFile>Regression.xml</suiteXmlFile>
+		<suiteXmlFile>RegressionSuite.xml</suiteXmlFile>
 		</suiteXmlFiles>
 		 
 		</configuration>
