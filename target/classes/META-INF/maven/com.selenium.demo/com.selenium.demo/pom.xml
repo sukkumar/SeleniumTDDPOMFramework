@@ -14,7 +14,7 @@
 	<dependency>
 	    <groupId>org.seleniumhq.selenium</groupId>
 	    <artifactId>selenium-java</artifactId>
-	    <version>3.141.59</version>
+	    <version>4.18.1</version>
 	</dependency>
  
 	<dependency> 
@@ -55,8 +55,8 @@
 		<version>3.0</version>
 		<configuration>
 		<compilerVersion>1.8</compilerVersion>
-		<source>1.6</source>
-		<target>1.6</target>
+		<source>1.8</source>
+		<target>1.8</target>
 		</configuration>
      </plugin>
 		 
@@ -67,7 +67,7 @@
 		<configuration>
 		 
 		<suiteXmlFiles>
-		<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+		<suiteXmlFile>RegressionSuite.xml</suiteXmlFile>
 		</suiteXmlFiles>
 		 
 		</configuration>
