@@ -49,11 +49,11 @@ public class BasicContactForm {
 		String msgConfirmation = driver.findElement(By.tagName("h4")).getText();
 		Assert.assertTrue(msgConfirmation.contains("Thank You"));
 	}
-	@Test
-	public void sampleFailMethod() {
-		ExtentReport.test = ExtentReport.extent.createTest("Test Case 2", "FAILED test case");
-		Assert.assertTrue(false);
-	}
+	// @Test
+	// public void sampleFailMethod() {
+	// 	ExtentReport.test = ExtentReport.extent.createTest("Test Case 2", "FAILED test case");
+	// 	Assert.assertTrue(false);
+	// }
 	
 	@AfterMethod
     public void getResult(ITestResult result) { 
